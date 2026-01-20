@@ -21,22 +21,38 @@
 
 ### 1.1. Installation of Tools (VSCode and Python)
 
-* **Course Context**
+```bat
+winget install --id Microsoft.VisualStudioCode -e
+winget install --id Git.Git -e
+winget install --id Python.Python.3 -e
+code --version
+git --version
+python --version
+code --install-extension zhuangtongfa.Material-theme
+code --install-extension GitHub.github-vscode-theme
+code --install-extension sdras.night-owl
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension GitHub.github-vscode-theme
+```
 
-  * This section is the **first section** of the **Agentic AI with Python** course.
-  * The purpose of this section is to **set up the developer environment** for building **agentic AI systems**.
-  * The section explains **what tools are required** before starting the course.
+---
+
+* **Repo Context**
+
+  * This Section is the **first Section** of the **Agentic AI with Python** Repo.
+  * The purpose of this Section is to **set up the developer environment** for building **agentic AI systems**.
+  * The Section explains **what tools are required** before starting the Repo.
   * All tools discussed are:
 
     * **Free**
     * **Very easy to set up**
     * **Most likely already installed** on the learner’s machine
 
-* **Objective of This section**
+* **Objective of This Section**
 
-  * To explain the **development environment setup** needed for the course.
+  * To explain the **development environment setup** needed for the Repo.
   * To introduce the **basic tools** required before writing any code.
-  * This section does **not** involve coding yet.
+  * This Section does **not** involve coding yet.
   * It prepares learners to follow upcoming tutorials smoothly.
 
 * **Tool 1: IDE (Integrated Development Environment)**
@@ -62,12 +78,12 @@
     * Click the **Download** button
     * Choose the appropriate platform
     * Follow on-screen instructions
-  * VS Code will be used as the **primary IDE** in this course.
+  * VS Code will be used as the **primary IDE** in this Repo.
 
 * **Tool 2: Python Programming Language**
 
   * Python **must be installed** on the machine.
-  * The entire course is **based on Python**.
+  * The entire Repo is **based on Python**.
   * The instructor **assumes basic Python knowledge**, not advanced expertise.
 
 * **Required Python Knowledge (Basic Level)**
@@ -80,7 +96,7 @@
     * **Simple mathematical operations**
     * **Simple classes**
   * Being a **Python expert is not required**.
-  * Basic familiarity is **sufficient to continue** with the course.
+  * Basic familiarity is **sufficient to continue** with the Repo.
 
 * **Python Installation Check (Example)**
 
@@ -115,8 +131,8 @@
 
 * **Tool 3: AI and LLM Platforms**
 
-  * This is an **Agentic AI course**, so AI platforms are required.
-  * The course will use:
+  * This is an **Agentic AI Repo**, so AI platforms are required.
+  * The Repo will use:
 
     * **OpenAI**
     * **Gemini**
@@ -130,9 +146,9 @@
     * Have an **OpenAI account**
   * Do not worry if you do not have one yet.
 
-* **Upcoming Dedicated sections**
+* **Upcoming Dedicated Sections**
 
-  * Separate sections will cover:
+  * Separate Sections will cover:
 
     * How to **set up an OpenAI account**
     * How to **sign up on OpenAI**
@@ -140,9 +156,9 @@
     * How to **use Gemini**
     * How to work with **other LLM tools**
 
-* **Summary of This section**
+* **Summary of This Section**
 
-  * This section is a **basic setup overview**.
+  * This Section is a **basic setup overview**.
   * It explains:
 
     * IDE requirement
@@ -153,25 +169,43 @@
     * Most learners already have these tools installed.
   * This setup enables learners to:
 
-    * Follow upcoming sections
+    * Follow upcoming Sections
     * Start building agentic AI systems smoothly
 
 ### 1.2. VS Code Setup (Extensions and Themes)
 
-* **Topic: VS Code Setup, Theme, and Extensions (Optional section)**
+```bat
+winget install --id Microsoft.VisualStudioCode -e ;
+
+code --install-extension akshatshrivastava.ao-mirage ;
+code --install-extension PKief.material-icon-theme ;
+code --install-extension esbenp.prettier-vscode ;
+
+code --install-extension ms-python.python ;
+code --install-extension ms-python.vscode-pylance ;
+code --install-extension ms-python.debugpy ;
+
+code --install-extension ms-vscode-remote.remote-containers ;
+code --install-extension ms-azuretools.vscode-docker ;
+code --install-extension docker.docker
+```
+
+---
+
+* **Topic: VS Code Setup, Theme, and Extensions (Optional Section)**
 
   * **Context**
 
-    * One very interesting comment that I usually get on my sections is:
+    * One very interesting comment that I usually get on my Sections is:
 
       * What is my VS Code setup?
       * What theme am I using?
       * What extensions am I using?
     * Many viewers are curious about how my development environment looks and works.
 
-  * **Purpose of This section**
+  * **Purpose of This Section**
 
-    * In this particular section, we discuss:
+    * In this particular Section, we discuss:
 
       * All the tools I use
       * All the themes I use
@@ -180,15 +214,13 @@
 
       * Are interested in my setup
       * Want to make their development environment look exactly like mine
-      * Want to follow this course comfortably with the same setup
+      * Want to follow this Repo comfortably with the same setup
 
-  * **Optional Nature of This section**
+  * **Optional Nature of This Section**
 
-    * This section is **absolutely optional**
-    * If you want, you can skip this section
-    * Skipping this section will not affect learning the main course content
-
----
+    * This Section is **absolutely optional**
+    * If you want, you can skip this Section
+    * Skipping this Section will not affect learning the main Repo content
 
 * **Overview of My VS Code Environment**
 
@@ -199,16 +231,12 @@
     * I work **a lot on TypeScript**
     * So I have TypeScript-related extensions installed
 
----
-
 * **Installed Extensions (General)**
 
   * I have:
 
     * Some **.NET extensions** installed
     * Some **container-related tools** for Docker work
-
----
 
 * **Theme Used**
 
@@ -221,9 +249,7 @@
   * This theme:
 
     * Is the **overall theme**
-    * Will be used **throughout the entire course**
-
----
+    * Will be used **throughout the entire Repo**
 
 * **Docker and Container Tools**
 
@@ -237,8 +263,6 @@
     * Working with Docker
     * Container-based development workflows
 
----
-
 * **Icon Theme**
 
   * The icon theme I use is:
@@ -250,8 +274,6 @@
     * File icons
     * Overall file explorer visuals
 
----
-
 * **Code Formatting Tool**
 
   * **Prettier**
@@ -262,8 +284,6 @@
       * Format code
       * Keep code clean and consistent
       * Automatically manage spacing and structure
-
----
 
 * **Python Development Extensions**
 
@@ -295,8 +315,6 @@
       * It is good to have
       * Useful for debugging Python applications
 
----
-
 * **Summary of Required Extensions for Python Developers**
 
   * These are the **major extensions** you need as a Python developer:
@@ -308,21 +326,17 @@
     * Material Icon Theme
   * No additional extensions are strictly required
 
----
-
 * **Final Confirmation**
 
   * The theme used is:
 
     * **AO Mirage**
     * **AO Mirage Dark Border Theme**
-  * This setup will remain consistent throughout the course
+  * This setup will remain consistent throughout the Repo
 
----
+* **Transition to Core Repo Content**
 
-* **Transition to Core Course Content**
-
-  * From the next section onwards:
+  * From the next Section onwards:
 
     * We will jump into the **real workings of LLMs**
     * We will **deep dive into Agentic AI**
@@ -338,6 +352,12 @@ Notes Formatting Nested Lines
 
 Create super depth notes in Markdown (.md) format with 100% information preserved, no loss. Use simple grammar and keep everything clear, direct, and well-structured. using headings, subheadings,paragraphs, statements and code blocks when needed. Include every detail, definition, example, and step exactly from the source. transform the given content into clean, readable .md format.
 and no #, just nested - lines plaintext, add bold wherever necessary
+
+
+---
+
+video -> Section
+course -> Repo
 
 ---
 End-of-File
