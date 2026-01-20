@@ -15,8 +15,9 @@
     - [1.1. Installation of Tools (VSCode and Python)](#11-installation-of-tools-vscode-and-python)
     - [1.2. VS Code Setup (Extensions and Themes)](#12-vs-code-setup-extensions-and-themes)
   - [2. Breaking Into Coding World with Python](#2-breaking-into-coding-world-with-python)
-    - [2.1. Kintsugi-Stack](#21-kintsugi-stack)
+    - [2.1. KintsugiStack](#21-kintsugistack)
     - [2.2. What is Programming ?](#22-what-is-programming-)
+    - [2.3. Convert that into Python Code](#23-convert-that-into-python-code)
 
 ---
 
@@ -351,9 +352,9 @@ code --install-extension docker.docker
 
 ## 2. Breaking Into Coding World with Python
 
-### 2.1. Kintsugi-Stack
+### 2.1. KintsugiStack
 
-* **Kintsugi-Stack**
+* **KintsugiStack**
 
   * The [KintsugiStack](https://github.com/kintsugi-programmer/KintsugiStack) repository, authored by Kintsugi-Programmer, is less a comprehensive resource and more an Artifact of Continuous Research and Deep Inquiry into Computer Science and Software Engineering. It serves as a transparent ledger of the author's relentless pursuit of mastery, from the foundational algorithms to modern full-stack implementation.
 
@@ -438,6 +439,32 @@ code --install-extension docker.docker
   * The Repo is designed for true mastery
 
 ### 2.2. What is Programming ?
+```plaintext
+FUNCTION makeChai
+
+    IF kettle does NOT have water THEN
+        fill kettle
+    END IF
+
+    plug in kettle
+    boil water
+
+    IF cup is NOT clean THEN
+        wash cup
+    END IF
+
+    add tea leaves to cup
+    add sugar to cup
+
+    pour boiled water into cup
+    stir cup
+
+    serve chai
+
+END FUNCTION
+
+CALL makeChai
+```
 
 * **Teaching Style and Screen Modes**
 
@@ -734,6 +761,432 @@ code --install-extension docker.docker
     * Easy to work with
     * Beginner friendly
   * Moving on to the next Section
+
+### 2.3. Convert that into Python Code
+```py
+def fill_kettle():
+    pass
+
+
+def plug_in_kettle():
+    pass
+
+
+def boil_water():
+    pass
+
+
+def wash_cup():
+    pass
+
+
+def add_to_cup(item):
+    pass
+
+
+def pour(item, into):
+    pass
+
+
+def stir(container):
+    pass
+
+
+def serve_chai():
+    pass
+
+
+def make_chai():
+
+    kettle_has_water = False
+    cup_is_clean = True
+
+    if not kettle_has_water:
+        fill_kettle()
+
+    plug_in_kettle()
+    boil_water()
+
+    if not cup_is_clean:
+        wash_cup()
+
+    add_to_cup("tea leaves")
+    add_to_cup("sugar")
+
+    pour("boiled water", into="cup")
+    stir("cup")
+
+    serve_chai()
+
+
+make_chai()
+```
+
+---
+
+* **Purpose of this section**
+
+  * The goal is to **convert real-world steps into Python-like code**
+  * The code is **not perfect Python**
+  * The goal is to **get an idea of what coding in Python feels like**
+  * This is about **experience**, not correctness
+
+* **Important note for learners**
+
+  * You **do not need to follow along**
+  * You **do not need to write this code**
+  * This part is only to **experience how Python code looks**
+  * Even this code **will not actually work**
+  * It is just a **brief overview and explanation**
+
+---
+
+* **Opening the code editor (VS Code)**
+
+  * The instructor goes into the **code editor**
+  * This is **Visual Studio Code**
+  * The editor was opened fresh to show the process
+
+* **Creating and opening a project folder**
+
+  * An **empty folder** is created
+  * Location:
+
+    * Inside an **English subfolder**
+    * Folder name: **Python Udemy**
+  * This folder is where **all course code will be written**
+  * The folder is **dragged and dropped into VS Code**
+  * That is all that is needed to open a project
+
+---
+
+* **Fresh VS Code look**
+
+  * This is how VS Code looks when opened fresh
+  * Multiple things may already be installed
+  * Only the relevant parts are shown
+
+---
+
+* **Python extensions in VS Code**
+
+  * Search for:
+
+    * **Python**
+  * Install the **Python extension**
+
+    * Provides:
+
+      * Color coding
+      * Type hinting
+  * Install **Pylance**
+
+    * Provides:
+
+      * Color coding
+      * Type hinting
+  * These extensions:
+
+    * Help write code faster
+    * Reduce manual typing
+    * Assist while writing code
+
+---
+
+* **Creating folders and files**
+
+  * Click the **top icons** in VS Code
+
+    * Create folder
+    * Create file
+
+* **Folder creation**
+
+  * A folder is created to mimic chapters
+  * Folder name:
+
+    * **00_Python**
+  * This represents **Chapter 00**
+
+* **File creation**
+
+  * Inside the folder, create a new file
+  * File name:
+
+    * **non_python_code.py**
+  * Reason:
+
+    * It is **not real Python**
+    * But the `.py` extension helps experience Python
+  * Extension is important to:
+
+    * Get syntax highlighting
+    * Feel like Python coding
+
+---
+
+* **Instruction to learners**
+
+  * This part is only for **experience**
+  * Do not follow along
+  * Do not worry about correctness
+  * Just observe and understand
+
+---
+
+* **Concept: Function**
+
+  * In programming, instructions are wrapped in a **function**
+  * A function is like a **box**
+  * It contains instructions inside it
+  * This helps organize steps
+
+---
+
+* **Creating a function**
+
+  * Function name:
+
+    * **makechai**
+  * Syntax elements:
+
+    * Parentheses `()`
+    * Colon `:`
+  * You do not need to memorize syntax
+  * You will learn it naturally over time
+
+```python
+def makechai():
+```
+
+---
+
+* **Indentation in Python**
+
+  * After pressing Enter:
+
+    * Python automatically adds **four spaces**
+  * Python works on **indentation**
+  * Removing indentation is **bad**
+  * Code will not work without indentation
+  * Best practice:
+
+    * Use **four spaces**
+    * Do not use tab
+  * Internally:
+
+    * Tab also equals four spaces
+  * Details will be explained later
+
+---
+
+* **First condition**
+
+  * Check if the kettle has water
+
+```python
+    if not kettle_has_water:
+        fill_kettle()
+```
+
+* **Explanation**
+
+  * Reads like English:
+
+    * If kettle does not have water
+    * Then fill the kettle
+  * This is based on **condition**
+  * You can understand this without knowing Python
+
+---
+
+* **Plugging in the kettle**
+
+  * Another function is used
+  * Someone else does the work
+  * Actual steps might include:
+
+    * Pulling the cord
+    * Moving nearby
+    * Switching on
+    * Plugging in
+  * But those details are abstracted
+
+```python
+    plug_in_kettle()
+```
+
+---
+
+* **Boiling water**
+
+  * Another function
+  * Purpose:
+
+    * Boil the water
+
+```python
+    boil_water()
+```
+
+---
+
+* **Checking if cup is clean**
+
+  * Condition:
+
+    * Is the cup clean?
+  * If not clean:
+
+    * Wash the cup
+    * Or pick another cup
+  * Both are valid in real life
+
+```python
+    if not is_cup_clean():
+        wash_cup()
+```
+
+---
+
+* **Adding ingredients to cup**
+
+  * Use the same method repeatedly
+  * First ingredient:
+
+    * Tea leaves
+  * Second ingredient:
+
+    * Sugar
+
+```python
+    add_to_cup("tea leaves")
+    add_to_cup("sugar")
+```
+
+---
+
+* **Pouring boiled water**
+
+  * A pouring method is used
+  * Specify:
+
+    * What to pour
+    * Where to pour
+
+```python
+    pour("boiled water", into="cup")
+```
+
+---
+
+* **Stirring**
+
+  * Stir inside the cup
+
+```python
+    stir("cup")
+```
+
+---
+
+* **Serving chai**
+
+  * Final step
+
+```python
+    serve_chai()
+```
+
+---
+
+* **Calling the function**
+
+  * Functions must be called to run
+  * Move outside the function
+  * Call the function
+
+```python
+makechai()
+```
+
+---
+
+* **Understanding the code**
+
+  * You may not understand how to write it
+  * But you can understand:
+
+    * 30%
+    * 60%
+    * Or even more
+  * That is enough
+
+---
+
+* **Key realization**
+
+  * Python code looks like **English**
+  * Example:
+
+    * `if not kettle_has_water`
+  * Python is easy to read
+  * That is why people say:
+
+    * Python is easy to learn
+  * If you can read English:
+
+    * You can read Python
+
+---
+
+* **Important clarification**
+
+  * This is **not accurate Python**
+  * 100% acknowledged
+  * But it is:
+
+    * Fairly understandable
+    * Conceptually correct
+  * Many concepts already introduced:
+
+    * Functions
+    * Conditions
+    * Methods
+    * Strings
+    * Flow of logic
+
+---
+
+* **Core programming idea**
+
+  * Programming means:
+
+    * Take steps
+    * Convert steps into code
+  * Throughout the course:
+
+    * Steps will be designed first
+    * Then converted into Python code
+
+---
+
+* **Confidence goal**
+
+  * Even **20% confidence** is enough
+  * If you feel:
+
+    * “Yes, I can do this”
+  * That is the goal
+
+---
+
+* **Transition**
+
+  * Next video will focus on:
+
+    * Pythonic concepts
+  * Move on to the next video
 
 ---
 

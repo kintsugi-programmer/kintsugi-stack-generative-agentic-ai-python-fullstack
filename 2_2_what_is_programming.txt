@@ -1,0 +1,24 @@
+FUNCTION makeChai
+
+    IF kettle does NOT have water THEN
+        fill kettle
+    END IF
+
+    plug in kettle
+    boil water
+
+    IF cup is NOT clean THEN
+        wash cup
+    END IF
+
+    add tea leaves to cup
+    add sugar to cup
+
+    pour boiled water into cup
+    stir cup
+
+    serve chai
+
+END FUNCTION
+
+CALL makeChai
