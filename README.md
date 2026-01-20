@@ -839,11 +839,9 @@ make_chai()
   * Even this code **will not actually work**
   * It is just a **brief overview and explanation**
 
----
-
 * **Opening the code editor (VS Code)**
 
-  * The instructor goes into the **code editor**
+  * The Author goes into the **code editor**
   * This is **Visual Studio Code**
   * The editor was opened fresh to show the process
 
@@ -854,19 +852,15 @@ make_chai()
 
     * Inside an **English subfolder**
     * Folder name: **Python Udemy**
-  * This folder is where **all course code will be written**
+  * This folder is where **all Repo code will be written**
   * The folder is **dragged and dropped into VS Code**
   * That is all that is needed to open a project
-
----
 
 * **Fresh VS Code look**
 
   * This is how VS Code looks when opened fresh
   * Multiple things may already be installed
   * Only the relevant parts are shown
-
----
 
 * **Python extensions in VS Code**
 
@@ -890,8 +884,6 @@ make_chai()
     * Help write code faster
     * Reduce manual typing
     * Assist while writing code
-
----
 
 * **Creating folders and files**
 
@@ -923,8 +915,6 @@ make_chai()
     * Get syntax highlighting
     * Feel like Python coding
 
----
-
 * **Instruction to learners**
 
   * This part is only for **experience**
@@ -932,16 +922,12 @@ make_chai()
   * Do not worry about correctness
   * Just observe and understand
 
----
-
 * **Concept: Function**
 
   * In programming, instructions are wrapped in a **function**
   * A function is like a **box**
   * It contains instructions inside it
   * This helps organize steps
-
----
 
 * **Creating a function**
 
@@ -959,8 +945,6 @@ make_chai()
 def makechai():
 ```
 
----
-
 * **Indentation in Python**
 
   * After pressing Enter:
@@ -977,8 +961,6 @@ def makechai():
 
     * Tab also equals four spaces
   * Details will be explained later
-
----
 
 * **First condition**
 
@@ -998,8 +980,6 @@ def makechai():
   * This is based on **condition**
   * You can understand this without knowing Python
 
----
-
 * **Plugging in the kettle**
 
   * Another function is used
@@ -1016,8 +996,6 @@ def makechai():
     plug_in_kettle()
 ```
 
----
-
 * **Boiling water**
 
   * Another function
@@ -1028,8 +1006,6 @@ def makechai():
 ```python
     boil_water()
 ```
-
----
 
 * **Checking if cup is clean**
 
@@ -1047,8 +1023,6 @@ def makechai():
         wash_cup()
 ```
 
----
-
 * **Adding ingredients to cup**
 
   * Use the same method repeatedly
@@ -1064,8 +1038,6 @@ def makechai():
     add_to_cup("sugar")
 ```
 
----
-
 * **Pouring boiled water**
 
   * A pouring method is used
@@ -1078,8 +1050,6 @@ def makechai():
     pour("boiled water", into="cup")
 ```
 
----
-
 * **Stirring**
 
   * Stir inside the cup
@@ -1088,8 +1058,6 @@ def makechai():
     stir("cup")
 ```
 
----
-
 * **Serving chai**
 
   * Final step
@@ -1097,8 +1065,6 @@ def makechai():
 ```python
     serve_chai()
 ```
-
----
 
 * **Calling the function**
 
@@ -1110,8 +1076,6 @@ def makechai():
 makechai()
 ```
 
----
-
 * **Understanding the code**
 
   * You may not understand how to write it
@@ -1121,8 +1085,6 @@ makechai()
     * 60%
     * Or even more
   * That is enough
-
----
 
 * **Key realization**
 
@@ -1137,8 +1099,6 @@ makechai()
   * If you can read English:
 
     * You can read Python
-
----
 
 * **Important clarification**
 
@@ -1156,20 +1116,16 @@ makechai()
     * Strings
     * Flow of logic
 
----
-
 * **Core programming idea**
 
   * Programming means:
 
     * Take steps
     * Convert steps into code
-  * Throughout the course:
+  * Throughout the Repo:
 
     * Steps will be designed first
     * Then converted into Python code
-
----
 
 * **Confidence goal**
 
@@ -1179,14 +1135,12 @@ makechai()
     * “Yes, I can do this”
   * That is the goal
 
----
-
 * **Transition**
 
-  * Next video will focus on:
+  * Next Section will focus on:
 
     * Pythonic concepts
-  * Move on to the next video
+  * Move on to the next Section
 
 ---
 
